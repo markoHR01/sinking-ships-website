@@ -55,7 +55,7 @@ export default function HomePage() {
           </div>
 
           {/* Picture : Win */}
-          <div className="flex-shring-0 mx-auto">
+          <div className="flex-shrink-0 mx-auto">
             <Image
               src="/slike/win.png"
               alt="Igra - Pobjeda"
