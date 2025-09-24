@@ -41,6 +41,7 @@ export default function HomePage() {
 
             <a
               href="/preuzmi/sinking-ships-linux.tar.gz"
+              download
               className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded"
             >
               Preuzmi za Linux
@@ -48,6 +49,7 @@ export default function HomePage() {
 
             <a
               href="/preuzmi/sinking-ships-win32.zip"
+              download
               className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"
             >
               Preuzmi za Windows
@@ -62,6 +64,7 @@ export default function HomePage() {
               width={1067}
               height={832}
               className="rounded"
+              priority
             />
           </div>
 
