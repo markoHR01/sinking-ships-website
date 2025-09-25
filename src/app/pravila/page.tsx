@@ -39,7 +39,7 @@ export default function PravilaPage() {
               <p className="max-w-md text-lg">
                 Na početku igre, svaki igrač postavlja 5
                 brodova na svoju ploču. Redom od najmanjeg
-                do najvećeg. Igrači imaju 15 sekunda za
+                do najvećeg. Igrači imaju 25 sekunda za
                 postavljanje brodova.
               </p>
             </div>
