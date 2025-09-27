@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 
 export default function PravilaPage() {
@@ -11,7 +10,7 @@ export default function PravilaPage() {
             {/* Step 1 */}
             <div className="flex flex-col items-center text-center space-y-4 mx-auto">
               <h2 className="text-5xl font-bold">1.</h2>
-              <Image
+              <img
                 src="/slike/menu.png"
                 alt="Igra - Izbornik"
                 width={534}
@@ -29,7 +28,7 @@ export default function PravilaPage() {
             {/* Step 2 */}
             <div className="flex flex-col items-center text-center space-y-4 mx-auto">
               <h2 className="text-5xl font-bold">2.</h2>
-              <Image
+              <img
                 src="/slike/setup.png"
                 alt="Igra - Početak"
                 width={534}
@@ -47,7 +46,7 @@ export default function PravilaPage() {
             {/* Step 3 */}
             <div className="flex flex-col items-center text-center space-y-4 mx-auto">
               <h2 className="text-5xl font-bold">3.</h2>
-              <Image
+              <img
                 src="/slike/play.png"
                 alt="Igra - Igra"
                 width={534}

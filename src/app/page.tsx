@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 export default function HomePage() {
     return (
         <main className="py-10 flex justify-center items-center">
@@ -58,13 +56,12 @@ export default function HomePage() {
 
           {/* Picture : Win */}
           <div className="mx-auto">
-            <Image
+            <img
               src="/slike/win.png"
               alt="Igra - Pobjeda"
               width={1067}
               height={832}
               className="rounded"
-              priority
             />
           </div>
 
